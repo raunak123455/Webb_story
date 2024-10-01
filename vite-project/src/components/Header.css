@@ -1,0 +1,147 @@
+/* container2 {
+  width: 1001px;
+  height: 200px;
+} */
+.header1 {
+  /* display: flex;
+  justify-content: end;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  height: 50px; */
+  width: 1660px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  /* position: absolute; */
+}
+
+.logoutmodal {
+  background-color: white;
+  position: relative;
+  top: 70px;
+  right: 60px;
+  width: 150px;
+
+  z-index: 1000;
+}
+
+.logout {
+  background-color: #ff7373;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 88px;
+  color: white;
+
+  font-size: 12px;
+}
+
+.register2 {
+  background-color: #ff7373;
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 88px;
+
+  font-size: 12px;
+}
+
+.signin {
+  background-color: #73abff;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.header > button {
+  margin-bottom: 10px;
+  padding: 0.5rem;
+}
+
+.bookmark {
+  display: flex;
+  background-color: #ff7373;
+  width: 110px;
+  height: 27px;
+  border-radius: 10px;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: 40px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.btn svg {
+  margin-right: 4px;
+}
+
+.btn-bookmark {
+  color: white;
+  background-color: #ff7373;
+  display: flex;
+  gap: 5px;
+  size: 1px;
+  width: 110px;
+  height: 30px;
+}
+
+.bookicon {
+  width: 14px;
+  height: 19px;
+}
+
+.btn-add-story {
+  color: white;
+  background-color: #ff7373;
+  width: 90px;
+  height: 30px;
+}
+
+.pfp {
+  width: 160px;
+  height: 40px;
+}
+
+.bars {
+  width: 20px;
+}
+.btn-user {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  justify-content: center;
+  /* background-color: #e5e7eb; */
+}
+
+.btn-menu {
+  color: #4b5563;
+  background-color: transparent;
+}

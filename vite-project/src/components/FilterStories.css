@@ -1,0 +1,17 @@
+/* Container for category stories */
+.category-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.category-stories h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}

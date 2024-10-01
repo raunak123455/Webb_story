@@ -1,0 +1,57 @@
+.body {
+  background-color: white;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+.register {
+  background-color: #ff7373;
+  border-radius: 10px;
+}
+
+.signin {
+  background-color: #73abff;
+  border-radius: 10px;
+}
+
+.header > button {
+  margin-bottom: 10px;
+  padding: 0.5rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset by half the width and height */
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust text size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: text shadow for better visibility */
+}
+
+.categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 20px;
+}
+
+.categorys {
+  margin-top: 90px;
+}
